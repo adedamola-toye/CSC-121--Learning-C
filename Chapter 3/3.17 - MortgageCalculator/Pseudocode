@@ -1,0 +1,30 @@
+QUESTION:  Develop a C program to calculate the interest accrued on a bank customer's mortgage. For each customer, the following facts are available:
+a) the account number
+b) the mortgage amount
+c) the mortgage term
+d) the interest rate
+The program should input each fact, calculate the total interest payable ( = mortgage amount
+× interest rate × mortgage term), and add it to the mortgage amount to get the total amount payable.
+It should calculate the required monthly payment by dividing the total amount payable by the
+number of months in the mortgage term. The program should display the required monthly payment rounded off to the nearest dollar. The program should process each customer's account at a
+time.
+
+    Initialize total interest to zero
+    Initialize total amount payable to zero
+
+    Input the account number(it could be the sentinel)
+    While the user has not yet entered the sentinel
+        Input mortgage amount in dollars
+        Input mortgage term in years
+        Input interest rate as a decimal
+    
+        Set the total interest to the product of mortgage amount, interest rate, and mortgage term
+        Set the total amount payable to the sum of the mortgage amount and the total interest
+        
+        If mortgage term is not equal to zero
+            Set monthly payment to total amount payable divided by the product of mortgage term and 12
+            Print the monthly payment
+        else
+            Print "The mortgage term must not be zero"
+
+        Input account number again

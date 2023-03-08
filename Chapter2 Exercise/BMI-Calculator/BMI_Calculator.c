@@ -4,11 +4,11 @@ the user’s body mass index.*/
 #include <stdio.h>
 int main(void){
     float weight, height;
-    printf("BMI VALUES\n");
-    printf("Underweight:  less than 18.5\n");
-    printf("Normal:       between 18.5 and 24.9\n");
-    printf("Overweight:   between 25 and 29.9\n");
-    printf("Obese:        30 or greater\n\n");
+    puts("BMI VALUES\n");
+    puts("Underweight:  less than 18.5\n");
+    puts("Normal:       between 18.5 and 24.9\n");
+    puts("Overweight:   between 25 and 29.9\n");
+    puts("Obese:        30 or greater\n\n");
 
     printf("Enter weight in kilograms: ");
     scanf("%f", &weight);

@@ -1,0 +1,39 @@
+Formulate a pseudocode algorithm for each of the following:
+
+a) Obtain three numbers from the keyboard, compute their product and display the result.
+
+    Initialize product to zero
+    Input first number
+    Input second number
+    Input third number
+    Set product to first number times second number times third number
+    Print the product
+
+b) Obtain two numbers from the keyboard, and determine and display which (if either) is
+the smaller of the two numbers.
+
+    Input first number
+    Input second number
+    If first number is less than second number
+        Print the first number
+    else
+        Print the second number
+
+c) Obtain a series of positive numbers from the keyboard, and determine and display their
+average. Assume that the user types the sentinel value -1 to indicate “end of data entry
+
+    Initialize total to 0
+    Inititalize counter to zero
+
+    Input positive number (possibly the sentinel)
+    While user has not yet inputted sentinel
+        Add number to total
+        Increase counter by 1
+        Input the next positive number(possibly the sentinel)
+
+    If counter is not equal to zero
+        Set average to the total divided by the counter
+        Print the average
+    Else
+        No number was entered
+    

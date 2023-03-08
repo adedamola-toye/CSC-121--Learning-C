@@ -1,0 +1,10 @@
+Write a program that reads a series of pairs of numbers as follows:
+a) Product number
+b) Quantity sold for one day
+Your program should use a switch statement to help determine the retail price for each product.
+Your program should calculate and display the total retail value of all products sold last week.
+
+    Initialize total retail value to zero
+    Input product number
+    Input quantity sold
+    

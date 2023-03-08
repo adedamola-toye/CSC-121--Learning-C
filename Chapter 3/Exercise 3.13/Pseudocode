@@ -1,0 +1,25 @@
+Write a single pseudocode statement that indicates each of the following:
+
+a) Display the message "Enter your name:"
+
+    Print "Enter your name:"
+
+b) Assign the product of variables a, b, c and d to variable p.
+
+    Initialize p to zero
+    Set p to be a times b times c
+
+c) The following condition is to be tested in a conditional statement: if x is greater than y,
+then x is assigned the value 10, otherwise x is assigned the value 20. 
+
+    If x is greater than y
+        Set x to 10
+    Else
+        Set x to 20
+
+d) Obtain values for variables a, b, c and d from the keyboard.
+
+    Input a
+    Input b
+    Input c
+    Input d

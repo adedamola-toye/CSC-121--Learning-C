@@ -1,5 +1,8 @@
 {
     "files.associations": {
         "SeparatingDigits.C": "cpp"
-    }
+    },
+    "cSpell.words": [
+        "pseudocode"
+    ]
 }

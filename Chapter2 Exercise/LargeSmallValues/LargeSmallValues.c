@@ -15,8 +15,11 @@ integers from the keyboard, then prints the sum, the average, the product, the s
     printf("Sum is %d\n", sum);
     printf("Average is %d\n", average);
     printf("Product is %d\n", product);
+    int counter = 1;
+    int smallest,largest;
 
     //Finding smallest  number
+
     if (num1 < num2 && num1 < num3){
         printf("Smallest is %d\n", num1);
     }

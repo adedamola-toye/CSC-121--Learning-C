@@ -10,7 +10,7 @@ d) Parking fees per day.
 e) Tolls per day*/
 #include <stdio.h>
 int main(void){
-    float total_Miles, cost_per_gallon, miles_per_gallon, parking_fees_per_Day, tolls_per_Day;
+    float total_Miles, cost_per_gallon, miles_per_gallon, parking_fees_per_Day, tolls_per_Day, totalCost;
     printf("Enter the following information: \n");
     printf("Total miles driven per day: ");
     scanf("%f", &total_Miles);
@@ -22,7 +22,8 @@ int main(void){
     scanf("%f", &parking_fees_per_Day);
     printf("Tolls per day", &tolls_per_Day);
 
-    float totalCost = (total_Miles/miles_per_gallon)*cost_per_gallon +parking_fees_per_Day +tolls_per_Day;
-
+    if ( miles_per_gallon != 0){
+        totalCost = ((float)total_Miles/miles_per_gallon)*cost_per_gallon +parking_fees_per_Day +tolls_per_Day;
+    }
     printf("Your cost per day of driving to work is: ", totalCost);
 }

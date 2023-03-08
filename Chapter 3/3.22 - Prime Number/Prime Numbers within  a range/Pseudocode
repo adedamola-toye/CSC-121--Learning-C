@@ -1,0 +1,11 @@
+Write a program that prints out the prime numbers between 2 numbers entered by user
+
+Input minimum number
+Input maximum number
+for each number from minimum number  to maximum number
+    Initialize isDivisibleBy - the number of integers a number is divisible by (except 1 and itself) to zero
+    for each counter from 2 to (number-1)
+        if number is divisible by counter;
+            increase the number of integers that number is divisible by to 1
+    if   isDivisibleBy is equal to zero
+        print the number  
