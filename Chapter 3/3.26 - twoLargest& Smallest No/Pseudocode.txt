@@ -1,0 +1,15 @@
+find the two
+largest values of the 10 numbers. [Note: You may input each number only once.]
+
+Initialize largest 1 to zero
+Initialize largest 2 to zero
+
+for each number from 1 to ten   
+    Input a number
+    if number is greater than largest 1
+        Set largest 2 to be equal argest 1 current value
+        new largest 1 is equal to number
+
+    else if number is greater than largest 2
+        Set largest 2 equal to number
+
